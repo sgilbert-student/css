@@ -55,6 +55,7 @@ nav {
 
 nav > ul {
     line-height: 2em;
+    list-style-type: none;
 }
 
 
