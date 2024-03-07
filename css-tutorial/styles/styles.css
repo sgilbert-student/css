@@ -60,7 +60,17 @@ nav > ul {
 
 
 /* List Styles */
+.syllabus ol {
+    list-style-type: upper-roman;
+}
 
+.syllabus ol ol {
+    list-style-type: upper-alpha;
+}
+
+.syllabus ol ol ol {
+    list-style-type: decimal;
+}
 
 
 
