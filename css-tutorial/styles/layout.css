@@ -1,4 +1,5 @@
 @charset "utf-8";
+/** We'll add layout rules here **/
 
 body {
 	margin: 0 auto;
@@ -7,45 +8,42 @@ body {
 	min-width: 640px;
 }
 
-body > header {
+header {
 	margin: 0;
-	width: 100%;
+	width: 100%
 	overflow: hidden;
 }
 
-body > nav {
+nav {
 	width: 20%;
-	float: left;
 	margin: 0 0 0 1.5%;
-}
-
-body >#about {
-	width: 51%;
 	float: left;
-	margin: 0 3% 0 3%;
 }
 
-
-body > aside {
+aside {
 	width: 20%;
-	float: left;
 	margin: 0 1.5% 0 0;
+	float: left;
 }
 
-body > #about img {
+#about {
+	width: 51%;
+	margin: 0 3% 0 3%;
+	float: left;
+}
+
+#about img {
 	float: right;
 	width: 40%;
-	margin: 0px 0 10px 10px;
-}
-
-article.syllabus {
-    float: left;
-	width: 74.5%;
 	margin: 0 4% 0 0%;
 }
 
+.syllabus {
+	width: 74.5%;
+	float: left;
+}
 
-body > footer {
+footer {
 	width: 100%;
 	clear: left;
 }
