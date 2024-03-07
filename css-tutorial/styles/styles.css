@@ -53,6 +53,9 @@ nav {
     font-size: 0.8em;
 }
 
+nav > ul {
+    line-height: 2em;
+}
 
 
 
