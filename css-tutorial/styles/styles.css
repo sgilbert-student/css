@@ -17,8 +17,12 @@ body {
 
 
 /* Heading Styles */
+h1 { font-size: 2.2em; }
+h2 { font-size: 1.1em; }
+
 h1, h2 {
     font-family: Quicksand, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1em;
 }
 
 .syllabus h1, .syllabus h2 {
@@ -37,13 +41,17 @@ h1, h2 {
 }
 
 /* Aside and Blockquote Styles */
-
+aside {
+    font-size: 0.8em;
+}
 
 
 
 
 /* Navigation Styles */
-
+nav {
+    font-size: 0.8em;
+}
 
 
 
