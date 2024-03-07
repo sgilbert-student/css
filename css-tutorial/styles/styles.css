@@ -69,11 +69,7 @@ nav > ul {
 footer address {
     background-color: rbg(222, 128, 60);
     color: rgba(255, 255, 255, 0.7);    /* 75% transparent */
-    font: normal        /* style */
-        small-caps      /* variant */
-        bold            /* weight */
-        0.9em/3em       /* size/line-height */
-        Quicksand, Geneva, Verdana, sans-serif;
+    /*font: normal small-caps bold 0.9em/3em Quicksand, Geneva, Verdana, sans-serif;*/
     text-align: center;
 }
 
