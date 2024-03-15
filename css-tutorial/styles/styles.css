@@ -46,7 +46,8 @@ aside {
 }
 
 aside blockquote {
-
+    color: rgb(232, 165, 116);
+    margin: 20px 3px;
 }
 
 
