@@ -61,6 +61,19 @@ nav > ul {
 
 
 /* List Styles */
+
+#about ul li:first-of-type {
+    list-style-image: url(../images/runicon.png);
+}
+
+#about ul li:nth-of-type(2) {
+    list-style-image: url(../images/bikeicon.png);
+}
+
+#about ul li:last-of-type {
+    list-style-image: url(../images/swimicon.png);
+}
+
 .syllabus ol {
     list-style-type: upper-roman;
 }
